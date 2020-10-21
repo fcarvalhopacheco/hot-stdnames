@@ -14,7 +14,7 @@ We are proposing these new standard names as part of our effort to consolidate a
 
 -Defnition(NERC):'Quantity (i.e. number of moles) of organic phosphorus (i.e.phosphorus in carbon compounds) dissolved per unit volume of the water column.'
 
--Units: [umol/kg](HOT) ; [mol m-3](CF)?? 
+-Units: [umol/kg](HOT) ; [mol/m3](CF)?? 
 
 -References: 
     NERC: http://vocab.nerc.ac.uk/collection/P09/current/DOPW/
@@ -27,7 +27,7 @@ We are proposing these new standard names as part of our effort to consolidate a
 -Definition(HOT): 'Mole concentration means number of moles per unit volume, also called "molarity", and is used in the construction "mole_concentration_of_X_in_Y", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as "phosphorus" or a phrase such as "nox_expressed_as_phosphorus". "Total Dissolved Phosphorus (TDP)"  describes all organic and inorganic phosphorus compounds. It is measured in a separate sample after exposure to ultraviolet (UV) light. Bound phophorus is released from organic matter by ultraviolet light (UV) oxidation and the liberated orthophosphate is reacted with an acidified molydate reagent and potassium antimonyl tartrate. The resulting compound, a heteropoly acid (phosphomolybdic acid), is reduced to the intensely colored molybdenum blue by ascorbic acid and measured spectrophotometrically.'
 -Definition(NERC): 'Quantity (i.e. number of moles) of total phosphorus (i.e.phosphorus in all chemical forms) dissolved per unit volume of the water column.'
 
--Units:[umol/kg](HOT);  [mol m-3](CF)??
+-Units:[umol/kg](HOT);  [mol/m3](CF)??
 
 -References: 
     NERC: http://vocab.nerc.ac.uk/collection/P09/current/DOPW/
@@ -40,40 +40,73 @@ We are proposing these new standard names as part of our effort to consolidate a
 -Definition(HOT):'Mole concentration means number of moles per unit volume, also called "molarity", and is used in the construction "mole_concentration_of_X_in_Y", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as "nitrogen" or a phrase such as "nox_expressed_as_nitrogen". "Total dissolved Nitrogen (TDN)" is determined by UV oxidation of the sample and subsequent analysis for dissolved inorganic nitrogen (DIN = nitrite + nitrate + ammonia).'
 
 
--Units:
+-Units:[umol/kg](HOT);  [mol/m3](CF)??
 
-
-
+-References: 
+    Seabass: https://seabass.gsfc.nasa.gov/wiki/stdfields#Table%20of%20Field%20Names%20and%20Units
+    HOT: https://hahana.soest.hawaii.edu/hot/protocols/protocols.html# (Orthophosphate and Dissolved Organic Phosphorus)
 -----------------------------------------------------
 (4)
--Definition(HOT):
--Units:
+-Term: mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water
+
+-Definition(HOT): 
+
+-Units: [umol/kg](HOT); [mol m-3 s-1](CF)?????
+
 -References:
 -----------------------------------------------------
-( )
--Definition(HOT):
--Units:
+(5)
+-Term: moles_of_low_level_nitrogen_per_unit_mass_in_sea_water
+
+-Definition(HOT):'Mole concentration means number of moles per unit volume, also called "molarity", and is used in the construction "mole_concentration_of_X_in_Y", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as "nitrogen" or a phrase such as "nox_expressed_as_nitrogen". " Nitrate (NO3-) plus Nitrite (NO2-)"  describes the nitrogen-containing compounds that can be found in sea water. "Low-Level Nitrogen (LLN)" describes nanomolar quantities of nitrate and nitrite analyzed using chemiluminescence techniques.This technique relies on the wet chemical reduction of nitrate and nitrite to nitric oxide in a highly acidic solution of sulfuric acid, ferrous ammonium sulfate, and ammonium molybdate. The reduced nitric oxide is carried by an inert carrier gas (argon), scrubbed of acid and water vapors in a cold finger filled with 6 M sodium hydroxide solution followed by an anhydrous sodium carbonate filled drying tube. The gas stream is then routed through a membrane dryer and the nitric oxide is combined with ozone and simultaneously exposed to a photomultiplier tube. The nitric oxide is further oxidized to excited nitrogen dioxide emitting a photon as it returns to ground state, and the emitted light is detected by the photomultiplier.'
+
+
+-Units: [nmol/kg](HOT)
+
 -References:
+    HOT: https://hahana.soest.hawaii.edu/hot/protocols/protocols.html# (see. LOW LEVEL NITRATE AND NITRATE BY CHEMILUMINESCENE)
 -----------------------------------------------------
-( )
--Definition(HOT):
--Units:
+(6)
+-Term: moles_of_low_level_phosphate_per_unit_mass_in_sea_water
+
+-Definition(HOT): 'Mole concentration means number of moles per unit volume, also called "molarity", and is used in the construction "mole_concentration_of_X_in_Y", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as "phosphurus" or a phrase such as "nox_expressed_as_phosphurus". Phosphurus (P) is often present in low and, perhaps, limiting concentrations for microalgal and bacterial populations. In seawater, inorganic phosphorus (also referred to as orthophosphate or soluble reactive phosphorus, SRP) occurs chiefly as ions of HPO42-, with a small percentage present as PO43-." Low Level Phosphate (LLP) " describres the determination of P dissolved in seawater at low concentrations (<0.1 µM). The precipitate is collected by centrifugation, washed with a solution of weak sodium hydroxide (0.01 M) and then dissolved in a known volume of high purity hydrochloric acid. At this point, the concentrated samples are treated as above for the determination of SRP. The detection limit is determined by the volume of seawater initially used (50-250 ml for our routine assays), but P concentrations as low as 5 nM can be easily and reproducibly detected. All low level P determinations are corrected for arsenic interference by thiosulfate reduction of dissolved arsenate.'
+
+-Units: [nmol/kg](HOT)
+
 -References:
+    HOT: https://hahana.soest.hawaii.edu/hot/protocols/protocols.html# (see. Orthophosphate and dissolved organic phosphorus) 
+
 -----------------------------------------------------
-( )
--Definition(HOT):
--Units:
+(7)
+-Term: moles_of_low_level_silicate_per_unit_mass_in_sea_water
+
+-Definition(HOT): 'Mole concentration means number of moles per unit volume, also called "molarity", and is used in the construction "mole_concentration_of_X_in_Y", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as "silicate" or a phrase such as "nox_expressed_as_silicate". In seawater, various groups of organisms (diatoms, radiolarians, silicoflagellates, sponges and some fungi) utilize silica primarily as a structural component.'
+
+-Units:[umol/kg] (HOT)
+
 -References:
+
 -----------------------------------------------------
-( )
+(8)
+-Term: mass_concentration_of_chlorophyll_c3_in_sea_water
+
+
 -Definition(HOT):
+
 -Units:
+
 -References:
+
 -----------------------------------------------------
+
 ( )
+
 -Definition(HOT):
+
 -Units:
+
 -References:
+
 -----------------------------------------------------
 ( )
 -Definition(HOT):
