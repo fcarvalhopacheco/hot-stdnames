@@ -1,0 +1,152 @@
+Hawaii Ocean Time-series  (HOT)
+
+Authors: Fernando Santiago-Mandujano (santiago@hawaii.edu); Fernando Carvalho Pacheco (fernando.pacheco@hawaii.edu); ???
+
+Date: 2020-10-20
+
+We are proposing these new standard names as part of our effort to consolidate a long list of variables used at HOT.
+
+-----------------------------------------------------
+(1) 
+-Term: mole_concentration_of_dissolved_organic_phosphorus_in_sea_water
+
+-Definition(HOT): 'Mole concentration means number of moles per unit volume, also called ""molarity"", and is used in the construction ""mole_concentration_of_X_in_Y"", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as ""phosphorus"" or a phrase such as ""nox_expressed_as_phosphorus"". ""dissolved organic phosphorus"" exists in a variety of forms which result from excretion, decomposition, death and autolysis. In this analytical procedure, dissolved organic phosphorus is estimated by difference between Soluble reactive phosphorus (SRP), and Total dissolved phosphorus (TDP). The first is measured spectrophotometrically following the formation of phosphomolybdic acid. The latter is measured in a separate sample after exposure to ultraviolet (UV) light.'
+
+-Defnition(NERC):'Quantity (i.e. number of moles) of organic phosphorus (i.e.phosphorus in carbon compounds) dissolved per unit volume of the water column.'
+
+-Units: [umol/kg](HOT) ; [mol m-3](CF)?? 
+
+-References: 
+    NERC: http://vocab.nerc.ac.uk/collection/P09/current/DOPW/
+    HOT: https://hahana.soest.hawaii.edu/hot/protocols/protocols.html# (Orthophosphate and Dissolved Organic Phosphorus / 1. Principle)
+
+-----------------------------------------------------
+(2)  
+-Term: mole_concentration_of_total_dissolved_phosphorus_in_sea_water
+
+-Definition(HOT): 'Mole concentration means number of moles per unit volume, also called "molarity", and is used in the construction "mole_concentration_of_X_in_Y", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as "phosphorus" or a phrase such as "nox_expressed_as_phosphorus". "Total Dissolved Phosphorus (TDP)"  describes all organic and inorganic phosphorus compounds. It is measured in a separate sample after exposure to ultraviolet (UV) light. Bound phophorus is released from organic matter by ultraviolet light (UV) oxidation and the liberated orthophosphate is reacted with an acidified molydate reagent and potassium antimonyl tartrate. The resulting compound, a heteropoly acid (phosphomolybdic acid), is reduced to the intensely colored molybdenum blue by ascorbic acid and measured spectrophotometrically.'
+-Definition(NERC): 'Quantity (i.e. number of moles) of total phosphorus (i.e.phosphorus in all chemical forms) dissolved per unit volume of the water column.'
+
+-Units:[umol/kg](HOT);  [mol m-3](CF)??
+
+-References: 
+    NERC: http://vocab.nerc.ac.uk/collection/P09/current/DOPW/
+    HOT: https://hahana.soest.hawaii.edu/hot/protocols/protocols.html# (Orthophosphate and Dissolved Organic Phosphorus / 1. Principle)
+
+-----------------------------------------------------
+(3)  
+-Term: mole_concentration_of_total_dissolved_nitrogen_in_sea_water
+
+-Definition(HOT):'Mole concentration means number of moles per unit volume, also called "molarity", and is used in the construction "mole_concentration_of_X_in_Y", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as "nitrogen" or a phrase such as "nox_expressed_as_nitrogen". "Total dissolved Nitrogen (TDN)" is determined by UV oxidation of the sample and subsequent analysis for dissolved inorganic nitrogen (DIN = nitrite + nitrate + ammonia).'
+
+
+-Units:
+
+
+
+-----------------------------------------------------
+(4)
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
+( )
+-Definition(HOT):
+-Units:
+-References:
+-----------------------------------------------------
